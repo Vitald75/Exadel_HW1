@@ -9,7 +9,7 @@ for (let i = 0; i < prices.length; i++) {
   sum += prices[i];
 }
 
-let averagePrice = sum / prices.length;
+const averagePrice = sum / prices.length;
 console.log(
   "Итого: " +
     sum +

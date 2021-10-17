@@ -83,9 +83,9 @@ const users = [
 
 for (let i = 0; i < users.length; i++) {
   if (
-    users[i].registrationDate == "09.10.2021" ||
-    users[i].registrationDate == "10.10.2021"
+    users[i].registrationDate === "09.10.2021" ||
+    users[i].registrationDate === "10.10.2021"
   ) {
-    console.log(users[i].firstName + " " + users[i].lastName);
+    console.log(String(users[i].firstName) + " " + String(users[i].lastName));
   }
 }
